@@ -1,9 +1,8 @@
-var age = prompt("What is your age?");
-var name = prompt("What is your name?");
-var food = prompt("What is your favorite food?");
+var add = function(number1, number2) {
+	return number1 + number2;
+};
 
-var sentence = function(age, name, food) {
-	return "I am " + age + ", my name is " + name + ", and my favorite food is " + food + ".";
-  };
+var number1 = parseInt(prompt("Enter a number:"));
+var number2 = parseInt(prompt("Enter another number:"));
 
-alert(sentence(age, name, food));
+alert(add(number1, number2));
