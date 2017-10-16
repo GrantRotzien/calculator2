@@ -50,7 +50,7 @@ var celsiusToFahrenheit = function(celsius) {
 };
 var result = celsiusToFahrenheit(celsius);
 
-// Convert farhenheit to celsius
+// Convert farhrenheit to celsius
 
 var fahrenheit = parseInt(prompt("Enter degrees Fahrenheit:"));
 var converter = function(fahrenheit) {
