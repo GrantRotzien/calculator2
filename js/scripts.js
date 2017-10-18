@@ -13,7 +13,7 @@ var sum = add(number1, number2);
 var subtract = function(number1, number2){
   return number1 - number2;
 };
-var difference = substract(number1, number2);
+var difference = subtract(number1, number2);
 
 
 
